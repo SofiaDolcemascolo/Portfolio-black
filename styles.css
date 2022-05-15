@@ -1,0 +1,62 @@
+body {
+  background: #000;
+  font-family: "helvetica Lt Std";
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+}
+
+.subtitle_p {
+  color: #fff;
+  font-size: 24px;
+  margin: 2px;
+  font-style: italic;
+}
+
+.subtitle_p1 {
+  color: #fff;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 24px;
+  margin: 2px;
+}
+
+.title_container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile_img {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.liner {
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.line {
+  transform: rotate(90deg);
+  margin-top: 260px;
+  margin-left: -215px;
+  width: 500px;
+}
